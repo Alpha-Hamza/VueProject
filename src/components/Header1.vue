@@ -1,6 +1,12 @@
 <template>
   <StyledHeader>
-    <h1>Hubble</h1>
+      <div class="hubble">
+          <h1>Hubble</h1>
+          <p class="p1">hubble2</p>
+          
+          </div>
+          <h1>hubble11</h1>
+         
   </StyledHeader>
 </template>
 

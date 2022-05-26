@@ -1,4 +1,4 @@
-import { injectGlobal } from "vue-styled-components"
+import { injectGlobal } from "vue3-styled-components"
 
 const GlobalStyles = injectGlobal`
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
@@ -13,6 +13,7 @@ const GlobalStyles = injectGlobal`
     margin: 0;
   }
   p {
+    
     opacity: 0.6;
     line-height: 1.5;
   }
