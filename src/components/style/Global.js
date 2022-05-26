@@ -1,12 +1,12 @@
-import { createGlobalStyle } from 'styled-components'
+import { injectGlobal } from "vue-styled-components"
 
-const GlobalStyles = createGlobalStyle`
+const GlobalStyles = injectGlobal`
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
   * {
     box-sizing: border-box;
   }
   body {
-    background: ${({ theme }) => theme.colors.body};
+    background: blue;
     color: hsl(192, 100%, 9%);
     font-family: 'Poppins', sans-serif;
     font-size: 1.15em;

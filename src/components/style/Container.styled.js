@@ -1,9 +1,9 @@
-import styled from "styled-components";
+import styled from "vue3-styled-components";
 
 export const Container = styled.div`
 width: 1000px;
 max-width: 100%;
 padding: 0 20px;
 margin: 0 auto;
-background-color: ${( { theme } ) => theme.colors.body };
-`;
+background-color: 'red';
+`

@@ -1,17 +1,14 @@
-
 <template>
-   <StyledHeader>
+  <StyledHeader>
     <h1>Hubble</h1>
-    </StyledHeader>
-    
+  </StyledHeader>
 </template>
 
 <script>
-import {StyledHeader} from "./style/Header.styled.js"
+import { StyledHeader } from "./style/Header.styled.js";
 
 export default {
-    name: "HeaderFunction",
-    components: { StyledHeader },
-  
-}
+  name: "HeaderFunction",
+  components: { StyledHeader },
+};
 </script>

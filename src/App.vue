@@ -8,13 +8,13 @@
   <Tasks  :tasks="tasks" /> -->
 
 
-    <div>
+
     <GlobalStyles />
 
-    <Header1 />
-    <Container />
+    <Header1/>
+    <Container/>
    
-    </div>
+
    
 
 
@@ -24,12 +24,16 @@
 
 // import Header from './components/Header.vue'
 // import Tasks from './components/Tasks.vue'
-import Container from "./Container.js"
 
 
-import GlobalStyles from "./style/Global.js"
 
-import Header1 from "./components/Header1.vue.js"
+
+import GlobalStyles from "./components/style/Global.js"
+
+
+import Container from "./components/Container.vue"
+import Header1 from "./components/Header1.vue"
+
 
 
 
@@ -39,11 +43,11 @@ export default {
   components: {
     // Header,
     // Tasks,
-  
     GlobalStyles,
+    
+  
     Header1,
-    Container,
-   
+      Container,
 },
 data() {
   return {
@@ -76,7 +80,7 @@ created() {
 }
 </script>
 
-<style>
+<!-- <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 * {
   box-sizing: border-box;
@@ -118,4 +122,4 @@ body {
   display: block;
   width: 100%;
 }
-</style>
+</style> -->

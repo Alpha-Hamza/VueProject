@@ -1,16 +1,20 @@
-import styled from "styled-components"
+import styled from "vue3-styled-components";
 
 
 export const StyledHeader = styled.header`
 
-background-color: ${({ theme }) => theme.colors.header};
+background-color: red;
 padding: 40px 0;
 
 h1{
     color:blue;
+    :hover{
+        color:white;
+    }
 }
 
 &:hover {
-    background-color:black;
+    
+    background-color:gray;
 }
 `
